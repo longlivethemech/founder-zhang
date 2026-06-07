@@ -1,0 +1,228 @@
+/* ════════════════════════════════════════════════════════════
+ * 02 · why — 为什么是他
+ * ════════════════════════════════════════════════════════════ */
+
+.wy-root {
+  position: absolute;
+  inset: 0;
+  background: var(--shell);
+  overflow: hidden;
+}
+.wy-ambient {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(70% 60% at 50% 40%, var(--accent-soft) 0%, transparent 62%),
+    var(--surface-pattern);
+  opacity: 0.9;
+  pointer-events: none;
+}
+.wy-em {
+  color: var(--accent);
+}
+.wy-eye {
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+}
+
+/* ─────────── A · 转身 ─────────── */
+.wy-turn {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 120px 150px;
+}
+.wy-turn-h {
+  font-size: 78px;
+  font-weight: 800;
+  line-height: 1.18;
+  color: var(--text);
+}
+.wy-turn-sub {
+  font-size: 34px;
+  line-height: 1.5;
+  color: var(--text-2);
+  font-family: var(--font-display-cn);
+  max-width: 1300px;
+}
+.wy-bridge {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 26px;
+  padding: 22px 30px;
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+  background: var(--surface-2);
+  width: fit-content;
+}
+.wy-bridge-l {
+  font-size: 16px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+}
+.wy-bridge-a {
+  font-size: 24px;
+  color: var(--accent);
+  letter-spacing: 0.01em;
+}
+.wy-bridge-arrow {
+  font-size: 28px;
+  color: var(--text-mute);
+}
+.wy-bridge-r {
+  font-size: 26px;
+  color: var(--text);
+  font-family: var(--font-display-cn);
+}
+
+/* ─────────── B · 洞察 · 缝隙 ─────────── */
+.wy-gap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 26px;
+  padding: 110px 140px;
+}
+.wy-gap-h {
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--text);
+}
+.wy-gap-cols {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  margin-top: 14px;
+}
+.wy-gap-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 34px 38px;
+  border: 1px solid var(--rule);
+  border-radius: 16px;
+  background: linear-gradient(160deg, var(--surface-2) 0%, var(--surface) 100%);
+}
+.wy-gap-en {
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  color: var(--text-mute);
+}
+.wy-gap-k {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text);
+}
+.wy-gap-body {
+  font-size: 22px;
+  line-height: 1.55;
+  color: var(--text-2);
+  font-family: var(--font-display-cn);
+}
+.wy-gap-vs {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-mono);
+  font-size: 18px;
+  letter-spacing: 0.3em;
+  color: var(--accent);
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: var(--shell);
+  border: 1px solid var(--accent-soft);
+}
+.wy-gap-punch {
+  margin-top: 20px;
+  font-size: 30px;
+  line-height: 1.5;
+  color: var(--text);
+  font-family: var(--font-display-cn);
+  max-width: 1500px;
+}
+
+/* ─────────── C · 核心理念 ─────────── */
+.wy-end {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  padding: 110px;
+  text-align: center;
+}
+.wy-end-lead {
+  position: relative;
+  font-size: 30px;
+  color: var(--text-2);
+  font-family: var(--font-display-cn);
+}
+.wy-end-note {
+  position: relative;
+  font-size: 22px;
+  line-height: 1.6;
+  color: var(--text-mute);
+  font-family: var(--font-display-cn);
+  max-width: 1100px;
+}
+.wy-end-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1100px;
+  height: 1100px;
+  transform: translate(-50%, -60%);
+  background: radial-gradient(circle, var(--accent-soft) 0%, transparent 60%);
+  pointer-events: none;
+}
+.wy-quote {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.wy-q-big {
+  font-size: 88px;
+  font-weight: 800;
+  line-height: 1.18;
+  color: var(--text);
+}
+.wy-sign {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 22px;
+}
+.wy-sign-name {
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--text);
+}
+.wy-sign-div {
+  width: 1px;
+  height: 30px;
+  background: var(--rule);
+}
+.wy-sign-studio {
+  font-size: 18px;
+  letter-spacing: 0.16em;
+  color: var(--text-mute);
+}
