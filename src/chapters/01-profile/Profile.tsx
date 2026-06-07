@@ -71,7 +71,7 @@ export default function Profile({ step }: ChapterStepProps) {
               PENGXIANG ZHANG
             </Reveal>
             <Reveal kind="rise" duration={720} delay={640} className="pf-cover-tag">
-              从 <span className="pf-em">Science</span>，到 <span className="pf-em">具身智能</span>。
+              从 <span className="pf-em">Science</span>，到<span className="pf-em">家庭级</span>具身智能。
             </Reveal>
           </div>
           <Reveal kind="scale" duration={820} delay={300} className="pf-portrait-wrap">
